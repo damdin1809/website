@@ -1,0 +1,160 @@
+body {
+      margin: 0;
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 15px;
+    line-height: 1.6;
+    color: black;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+  }
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+  .container {
+      width: 100%;
+      max-width: 1200px;
+      height: 2400px;
+      max-height: 2400px;
+      margin: 0 auto;
+  }
+
+
+  .intro {
+    text-align: center;
+        width: 100%;
+        height: 100vh;
+
+        background: url(intro3.jpg) center no-repeat;
+          -webkit-background-size: cover;
+          background-size: cover;
+  }
+  .intro_title{
+    font-size: 60px;
+    margin: 0px auto 60px;
+
+    padding-top: 200px
+  }
+
+
+
+    .header {
+          width: 100%;
+
+      position: absolute;
+      top: 100px;
+      left: 0;
+      right: 0;
+      z-index: 1000;
+    }
+
+    .header_inner {
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .nav {
+
+      font-size: 20px;
+      text-transform: uppercase;
+    }
+
+    .nav_link {
+      display: inline-block;
+      vertical-align: top;
+      margin: 0 12px;
+
+      color: black;
+      text-decoration: none;
+      transition: color .2s linear;
+    }
+    .nav_link:hover {
+      color: red;
+    }
+    
+    .btn {
+      display: inline-block;
+      vertical-align: top;
+      padding: 1px 8px;
+
+      border: 2px solid black;
+
+
+      font-size: 17px;
+      color black;
+      text-transform: uppercase;
+      text-decoration: none;
+      transition: background .1s linear, color .1s linear;
+
+    }
+    .btn:hover {
+      background-color: black;
+      color: white;
+    }
+
+    
+.block {
+    height: 115px;
+    color white;
+    font-size: 20px;
+    padding-bottom: 1px;
+    
+    
+    box-shadow: 0 0 10px #000;
+    background: black;
+    text-align: center;
+}
+.social {
+    
+    width: 20px;
+    height: 20px;
+    
+    padding: 0px 0px;
+
+    background-color: black;
+    color: white;
+    
+
+    font-size: 40px;
+    text-decoration: none;
+    
+    
+
+    transition: background .1s linear, color .1s linear;
+}
+.social:hover {
+    color: red;
+    background-color: black;
+    
+}
+.page_load {
+    width: 1200px 1200px;
+    color: black;
+    background-color: black;
+}
+
+
+.transition-fade {
+  transition: 0.4s;
+  opacity: 1;
+}
+
+html.is-animating .transition-fade {
+  opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
